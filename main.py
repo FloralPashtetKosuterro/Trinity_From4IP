@@ -4,10 +4,9 @@ offer = int(input('Сколько арбузов вы хотите купить?
 cost = 0
 
 if offer // 3:
-    offer+=1
     cost=10
     final_cost=cost*offer
-    print(f'Вы купили {offer} арбузов на {final_cost} рублей. Еврей был колдуном и заставил купить вас ещё один арбуз.')
+    print(f'Вы купили {offer} арбузов на {final_cost} рублей. Еврей надул вас оптовой закупкой.')
 elif offer == 0:
     print('Вы ушли без арбузов...')
 else:
