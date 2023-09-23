@@ -3,7 +3,7 @@ print('Старый еврей продает на базаре арбузы\nП
 offer = int(input('Сколько арбузов вы хотите купить?: '))
 cost = 0
 
-if offer // 3:
+if offer % 3 == 0:
     cost=10
     final_cost=cost*offer
     print(f'\nВы купили {offer} арбузов на {final_cost} рублей. Еврей надул вас оптовой закупкой.')
