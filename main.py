@@ -15,3 +15,4 @@ else:
     final_cost = cost * offer
     print(f'Вы купили {offer} арбузов на {final_cost} рублей. Еврей был колдуном и заставил купить вас ещё один арбуз.')
 
+# Daelss проверил
